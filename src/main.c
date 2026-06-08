@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <windows.h>
-
 #include "config.h"
 #include "caixa.h"
 #include "pilha_carrinhos.h"
@@ -118,7 +117,7 @@ int main(void) {
     }
 
     if (tempo >= 600) {
-        printf("\nSimulacao concluida com sucesso! (Limite de 10 minutos atingido)\n");
+        printf("\nSimulacao concluida com sucesso! (Tempo de 10 minutos atingido)\n");
     } else {
         printf("\nSimulacao interrompida pelo utilizador.\n");
     }
